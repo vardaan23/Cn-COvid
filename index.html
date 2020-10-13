@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Covid Pandemic Statistics </title>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript">
+      google.charts.load('current', {'packages':['corechart']});
+      google.charts.setOnLoadCallback(drawChart);
+
+      function drawChart() {
+
+        var data = google.visualization.arrayToDataTable([
+          ['Task', 'Hours per Day'],
+          ['karnataka',     12],
+          ['kerela',      9],
+          ['AP',  5],
+          ['Tamil Nadu', 4],
+          ['Telengana',    2],
+            ['GOA',    0.4]
+
+        ]);
+
+        var options = {
+          title: 'South India Statistics'
+        };
+
+        var chart = new google.visualization.PieChart(document.getElementById('piechart'));
+
+        chart.draw(data, options);
+      }
+    </script>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript">
+      google.charts.load('current', {'packages':['corechart']});
+      google.charts.setOnLoadCallback(drawChart);
+
+      function drawChart() {
+
+        var data = google.visualization.arrayToDataTable([
+          ['Task', 'Hours per Day'],
+          ['W B',     3],
+          ['Bihar',      1.1],
+          ['Odisha',  2.4],
+          ['Jharkhand', 0.8]
+        ]);
+
+        var options = {
+          title: 'East India Statistics'
+        };
+
+        var chart = new google.visualization.PieChart(document.getElementById('piechart2'));
+
+        chart.draw(data, options);
+      }
+    </script>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript">
+      google.charts.load('current', {'packages':['corechart']});
+      google.charts.setOnLoadCallback(drawChart);
+
+      function drawChart() {
+
+        var data = google.visualization.arrayToDataTable([
+          ['Task', 'Hours per Day'],
+          ['U P',     4],
+          ['PNJ',      0.9],
+          ['RAJ',  2],
+          ['DELHI', 2.2],
+          ['H R',    1],
+          ['H P',    0.2],
+          ['U K',    0.7],
+          ['J and K',    1]
+        ]);
+
+        var options = {
+          title: 'North India Statistics'
+        };
+
+        var chart = new google.visualization.PieChart(document.getElementById('piechart3'));
+
+        chart.draw(data, options);
+      }
+    </script>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript">
+      google.charts.load('current', {'packages':['corechart']});
+      google.charts.setOnLoadCallback(drawChart);
+
+      function drawChart() {
+
+        var data = google.visualization.arrayToDataTable([
+          ['Task', 'Hours per Day'],
+          ['MAH',     11],
+          ['GUJ',      2],
+          ['M P',  2],
+          ['Chhattisgarh', 2]
+        ]);
+
+        var options = {
+          title: 'West India Aad Central Indian Statistics '
+        };
+
+        var chart = new google.visualization.PieChart(document.getElementById('piechart4'));
+
+        chart.draw(data, options);
+      }
+    </script>
+  </head>
+  <body >
+    <div style="margin-left: 300px;">
+      <h1>India Direction Wise Active COVID-19 Statistics</h1>
+
+    </div>
+    <div id="piechart" style="width: 300px; height: 300px; display: inline-block; position: static; margin-left: 50px;"></div>
+    <div id="piechart2" style="width: 300px; height: 300px; display: inline-block;  position: static;"></div>
+    <div id="piechart3" style="width: 300px; height: 300px; display: inline-block;  position: static;"></div>
+    <div id="piechart4" style="width: 300px; height: 300px; display: inline-block;  position: static;"></div>
+    <div>
+    <table>
+      <tr>
+        <td> <img style="height: 250px; width: 250px;"src="https://www.statnews.com/wp-content/uploads/2020/02/Coronavirus-CDC-645x645.jpg" alt=""></td>
+        <td><h1>Analysis</h1>
+          <p style="font-size: 20px;">Here India is divided into 4 Pi charts. Pi charts contain percentage of COVID active cases in India
+             (Only major states with most tourist attraction is  considered). Hence on analysing the Pi charts
+            states where percentage of active cases in more are risky vice versa.
+             </p>
+           </td>
+           <td><img style="height: 250px; width: 250px;"src="https://img.etimg.com/thumb/msid-76340801,width-1200,height-900,imgsize-389237,overlay-etpanache/photo.jpg" alt=""></td>
+      </tr>
+    </table>
+</div>
+
+  <img src="https://www.elsevier.com/__data/assets/image/0012/974739/coronavirus-image-iStock-628925532-full-width-wide.jpg" alt="">
+
+  </body>
+</html>
